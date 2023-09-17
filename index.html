@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="/Deluxemusic.svg.png" style="width: 20%" />
+      <nav class="navigation">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Service</a>
+        <a href="">Contact</a>
+        <button class="btnlogin-popup">login</button>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <span class="icon-close"><i class="fa-solid fa-circle-xmark"></i></span>
+
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="">
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" required />
+            <label for="">Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-key"></i></span>
+            <input type="password" required />
+            <label for="">Password</label>
+          </div>
+          <div class="remmber-forget-password">
+            <label><input type="checkbox" />RemmemberMe</label>
+            <a href="#" class="forget-pass" style="margin-left: 22px"
+              >Forget-password?</a
+            ><br />
+          </div>
+
+          <button class="btn-sub" type="submit">Login</button>
+          <div class="login-register">
+            <p>
+              Dont have an Account?<a
+                style="color: antiquewhite"
+                href="#"
+                class="register-link"
+                >Register</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-user"></i></span>
+            <input type="text" required />
+            <label for="">User-Name</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" required />
+            <label for="">Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-key"></i></span>
+            <input type="password" required />
+            <label for="">Password</label>
+          </div>
+          <div class="remmber-forget-password">
+            <label style="color: aliceblue"
+              ><input type="checkbox" />I Agree All Term's</label
+            >
+            <a href="#" class="forget-pass" style="margin-left: 22px"
+              >Forget-password?</a
+            ><br />
+          </div>
+
+          <button class="btn-sub" type="submit">Register</button>
+          <div class="login-register">
+            <p style="color: aliceblue">
+              Already have account?<a
+                class="login-link"
+                style="color: antiquewhite"
+                href="#"
+                >Login</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/68c5487d32.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/javaindex.js"></script>
+  </body>
+</html>
